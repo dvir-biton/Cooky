@@ -1,10 +1,10 @@
 package com.fylora.cooky.domain.model
 
 data class Recipe(
-    val name: String,
-    val description: String,
-    val makingTime: String,
-    val ingredients: List<Ingredient>,
+    val name: String = "",
+    val description: String = "",
+    val makingTime: String = "",
+    val ingredients: List<Ingredient> = emptyList(),
     val id: Int = 0
 )
 

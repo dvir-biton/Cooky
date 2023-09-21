@@ -79,8 +79,11 @@ dependencies {
     ksp("androidx.room:room-compiler:$room_version")
 
     // navigation
-    implementation("androidx.navigation:navigation-compose:2.7.2")
+    implementation("androidx.navigation:navigation-compose:2.7.3")
 
     // gson converter
     implementation("com.google.code.gson:gson:2.9.0")
+
+    // image viewer
+    implementation("io.coil-kt:coil-compose:2.4.0")
 }

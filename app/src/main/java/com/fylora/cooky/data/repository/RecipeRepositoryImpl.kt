@@ -1,7 +1,6 @@
 package com.fylora.cooky.data.repository
 
 import com.fylora.cooky.data.data_sources.RecipeDao
-import com.fylora.cooky.data.entity.RecipeEntity
 import com.fylora.cooky.data.mappers.toRecipe
 import com.fylora.cooky.data.mappers.toRecipeEntity
 import com.fylora.cooky.domain.model.Recipe

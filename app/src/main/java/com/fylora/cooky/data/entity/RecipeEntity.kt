@@ -9,6 +9,7 @@ data class RecipeEntity(
     val description: String,
     val makingTime: String,
     val ingredients: String,
+    val imagePath: String? = null,
 
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0
