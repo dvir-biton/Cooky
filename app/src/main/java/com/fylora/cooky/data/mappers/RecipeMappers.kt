@@ -11,6 +11,7 @@ fun RecipeEntity.toRecipe(): Recipe {
         description = description,
         makingTime = makingTime,
         ingredients = ingredients.toIngredientList(),
+        imagePath = imagePath ?: Recipe.blankImage,
         id = id
     )
 }
@@ -21,6 +22,7 @@ fun Recipe.toRecipeEntity(): RecipeEntity {
         description = description,
         makingTime = makingTime,
         ingredients = ingredients.toJsonString(),
+        imagePath = imagePath,
         id = id
     )
 }
